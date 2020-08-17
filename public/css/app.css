@@ -1,0 +1,758 @@
+/* roboto-cyrillic-ext-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-300-italic.woff2?c7dcff7355653aa55234333a1a4608f7) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-300-italic.woff2?e4a706ea31560dec003410505f16e6c4) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-300-italic.woff2?e21b677176fb93e48faf357c7acb7be7) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-300-italic.woff2?cfcd47e5c2343d9bd7c430c4d4a1d4b3) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-300-italic.woff2?4330edbc4ba332f7541fee513df513fa) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-300-italic.woff2?32afd4a5453940e3714dc7d24389af6a) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-300-italic.woff2?14286f3ba79c6627433572dfa925202e) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-300-normal.woff2?d69a2de852e8018e514374e6856b1daa) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-300-normal.woff2?a5383450b25d7490ad1a6e15bd0b176d) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-300-normal.woff2?d4a587dbb092d02b357b1d19f66d0491) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-300-normal.woff2?f7059272fd8e0226350501393f4450c0) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-300-normal.woff2?484cddf4a27f89deb619b0c5c38bdcfd) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-300-normal.woff2?e83b8f976d12362b33c7047c09ef586e) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-300-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-300-normal.woff2?ef7c6637c68f269a882e73bcb57a7f6a) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-normal.woff?c46434d46a72919eb141228dd0144b6c) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-300-italic.woff2?c7dcff7355653aa55234333a1a4608f7) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-300-italic.woff2?e4a706ea31560dec003410505f16e6c4) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-300-italic.woff2?e21b677176fb93e48faf357c7acb7be7) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-300-italic.woff2?cfcd47e5c2343d9bd7c430c4d4a1d4b3) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-300-italic.woff2?4330edbc4ba332f7541fee513df513fa) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-300-italic.woff2?32afd4a5453940e3714dc7d24389af6a) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-300-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-300-italic.woff2?14286f3ba79c6627433572dfa925202e) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-300-italic.woff?cf6e2d8c73bd32ecb3a47759f73b45e2) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-400-italic.woff2?b3e580d221a4722c959155878ab94210) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-400-italic.woff2?8266321ab43353bcd147ad67600d165c) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-400-italic.woff2?801b64f75ae26dab9c36f00629ebdad0) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-400-italic.woff2?469a78405c3ae073ba769321fa0584f3) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-400-italic.woff2?9780bde87bceec579eaf16bddad47615) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-400-italic.woff2?dc3871f486e189164db4b98968330bc4) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-400-italic.woff2?51521a2a8da71e50d871ac6fd2187e87) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-400-normal.woff2?4743c758a952f2bd4a35d4e42afc002b) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-400-normal.woff2?8bb64952764a884d67019b3486296ab9) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-400-normal.woff2?182ee6a4872ca8fa78048951b1561a5c) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-400-normal.woff2?c1e9793c84cb26c44ef2a2cf8b6f49ce) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-400-normal.woff2?a8be5b46d06bb541b0968196ee5e6bb8) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-400-normal.woff2?455200cb007fe1212c668721d827c691) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-400-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-400-normal.woff2?479970ffb74f2117317f9d24d9e317fe) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-normal.woff?a91ad097d24828af724d4fee36a063ed) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-400-italic.woff2?b3e580d221a4722c959155878ab94210) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-400-italic.woff2?8266321ab43353bcd147ad67600d165c) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-400-italic.woff2?801b64f75ae26dab9c36f00629ebdad0) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-400-italic.woff2?469a78405c3ae073ba769321fa0584f3) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-400-italic.woff2?9780bde87bceec579eaf16bddad47615) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-400-italic.woff2?dc3871f486e189164db4b98968330bc4) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-400-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-400-italic.woff2?51521a2a8da71e50d871ac6fd2187e87) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-400-italic.woff?c762d850e2e8d0e29047608715196736) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-500-italic.woff2?219388f2ea168b35e3c868ec45230768) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-500-italic.woff2?6d93e9e294a7f60ff29df21b313645ac) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-500-italic.woff2?20227e28b63f337e931e8c88ef86ce1a) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-500-italic.woff2?16714bf780d9700804a1e5661a9b3a80) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-500-italic.woff2?85d8c8f63ce1a5ebe653569036fbd826) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-500-italic.woff2?2a730e44d3cddf1135c26029c7009bf1) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-500-italic.woff2?db4a2a231f52e497c0191e8966b0ee58) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-500-normal.woff2?378698af3b6776fd1e3ee0a51c3d7b87) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-500-normal.woff2?7fd643e63fc847f47521a2604072ce9c) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-500-normal.woff2?0f80978b9a5916929ecd5e1e21bc4169) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-500-normal.woff2?665639f6a0519416ad2904f1c218ea30) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-500-normal.woff2?16423fb4da5bb6d54592839d6cd8e1be) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-500-normal.woff2?b1b808436b5eafe9a683fff584d80fea) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-500-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-500-normal.woff2?020c97dc8e0463259c2f9df929bb0c69) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-normal.woff?851a2b5a8394eb1b868678bfd31a1a8a) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-500-italic.woff2?219388f2ea168b35e3c868ec45230768) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-500-italic.woff2?6d93e9e294a7f60ff29df21b313645ac) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-500-italic.woff2?20227e28b63f337e931e8c88ef86ce1a) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-500-italic.woff2?16714bf780d9700804a1e5661a9b3a80) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-500-italic.woff2?85d8c8f63ce1a5ebe653569036fbd826) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-500-italic.woff2?2a730e44d3cddf1135c26029c7009bf1) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-500-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-500-italic.woff2?db4a2a231f52e497c0191e8966b0ee58) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-500-italic.woff?23683e7bde61547ba7fd5020736c3097) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-700-italic.woff2?797f5a30b0e60507a7084f3d4b611569) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-700-italic.woff2?76c266b052291ab3924f90ab7530ee07) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-700-italic.woff2?dd2f5cb0e2ac91bc9798dc9bac5ee8db) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-700-italic.woff2?a9bc08418099ad6be2ad100dd0c07dd7) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-700-italic.woff2?dcefe8641986cdfe8da947292e1acc1d) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-700-italic.woff2?9cbaed4140b0dea7c8b6c09497079cb4) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-700-italic.woff2?da0e717829e033a69dec97f1e155ae42) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-700-normal.woff2?2522a38e3389f585569d5f19a7cab696) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-700-normal.woff2?9d484aa99b936dfe89b6b12df530d138) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-700-normal.woff2?029b92b987a0d582eeed90cf15de07d5) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-700-normal.woff2?16d9701c9975c56671c57bd242ccb1be) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-700-normal.woff2?d9600d97b65b16ddb8527136d38f8160) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-700-normal.woff2?188b397610a9a71bd931a3bd04ee2197) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-700-normal*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-700-normal.woff2?2735a3a69b509faf3577afd25bdf552e) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-normal.woff?cf654de4c5d988526828f731f299d30a) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* roboto-cyrillic-ext-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-ext-700-italic.woff2?797f5a30b0e60507a7084f3d4b611569) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* roboto-cyrillic-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-cyrillic-700-italic.woff2?76c266b052291ab3924f90ab7530ee07) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* roboto-greek-ext-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-ext-700-italic.woff2?dd2f5cb0e2ac91bc9798dc9bac5ee8db) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* roboto-greek-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-greek-700-italic.woff2?a9bc08418099ad6be2ad100dd0c07dd7) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* roboto-vietnamese-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-vietnamese-700-italic.woff2?dcefe8641986cdfe8da947292e1acc1d) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* roboto-latin-ext-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-ext-700-italic.woff2?9cbaed4140b0dea7c8b6c09497079cb4) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* roboto-latin-700-italic*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/fonts/vendor/fontsource-roboto/files/roboto-latin-700-italic.woff2?da0e717829e033a69dec97f1e155ae42) format('woff2'), url(/fonts/vendor/fontsource-roboto/files/roboto-all-700-italic.woff?b637cf3c25928c417ca5d3959418e208) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
