@@ -6,7 +6,7 @@ project name: file-dashboard
 
 ## Getting Started
 
-### Required Software package versions to install
+### Required Software Package Versions to Install
 
 Node: 12.18.3
 
