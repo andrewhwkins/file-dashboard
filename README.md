@@ -56,7 +56,7 @@ yarn test
 yarn lint
 ```
 
-### Required VSCode extensions to install
+### Required VSCode Extensions to Install
 
 Prettier
 Eslint
