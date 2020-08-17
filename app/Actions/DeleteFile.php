@@ -32,7 +32,8 @@ class DeleteFile extends Action
         $s3Client = \App::make('aws')->createClient('s3');
 
         $result = $s3Client->deleteObject([
-            'Bucket' => env('MIX_AWS_BUCKET'),
+
+            'Bucket' => env('AWS_BUCKET'),
             'Key' => $file->file_slug,
         ]);
 

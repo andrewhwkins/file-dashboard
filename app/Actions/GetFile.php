@@ -39,12 +39,12 @@ class GetFile extends Action
         $s3Client = \App::make('aws')->createClient('s3');
 
         $meta = $s3Client->headObject([
-            'Bucket' => env('MIX_AWS_BUCKET'),
+            'Bucket' => env('AWS_BUCKET'),
             'Key' => $file->file_slug,
         ]);
 
         $tags = $s3Client->getObjectTagging([
-            'Bucket' => env('MIX_AWS_BUCKET'),
+            'Bucket' => env('AWS_BUCKET'),
             'Key' => $file->file_slug,
         ]);
 
