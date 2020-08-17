@@ -9,7 +9,9 @@ project name: file-dashboard
 ### Required Software package versions to install
 
 Node: 12.18.3
-PHPMyAdmin
+
+MySQL
+
 PHP: 7.2.5+
 
 ### Install Dependencies
@@ -42,11 +44,21 @@ php artisan serve
 yarn dev
 ```
 
+### Testing
+
+```
+yarn test
+```
+
+### Linting
+
+```
+yarn lint
+```
+
 ### Required VSCode extensions to install
 
 Prettier
 Eslint
-
-Add "prettier.singleQuotes": true to user settings
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
