@@ -11,9 +11,11 @@ module.exports = {
         "react/jsx-filename-extension": "off",
         "linebreak-style": "off",
         "react/prop-types": "warn",
+        "react/forbid-foreign-prop-types": "off",
         "prefer-destructuring": "off",
         "react/jsx-props-no-spreading": "off",
         "react/require-default-props": "off",
+        "jest/expect-expect": "off",
         "react/jsx-wrap-multilines": [
             "error",
             {

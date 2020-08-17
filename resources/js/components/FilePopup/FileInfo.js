@@ -5,6 +5,12 @@ import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import moment from "moment-mini";
 
+/**
+ * Functional react component for file details displayed in the file pop up.
+ * @function
+ * @param {Object} props - Component props
+ * @returns {JSX.Element} - Rendered component
+ */
 const FileInfo = ({ file }) => {
     const infoKeys = {
         file_name: "File Name",
@@ -38,7 +44,7 @@ const FileInfo = ({ file }) => {
     );
 
     return (
-        <div>
+        <div data-test="component-file-info">
             <Typography variant="h6" component="h3">
                 Info
             </Typography>
@@ -52,7 +58,7 @@ const FileInfo = ({ file }) => {
 };
 
 FileInfo.propTypes = {
-    file: PropTypes.objectOf(PropTypes.any),
+    file: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default FileInfo;

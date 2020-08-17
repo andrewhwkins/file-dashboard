@@ -31,6 +31,3 @@ apiInstance.interceptors.response.use(
         return Promise.reject(error.message);
     }
 );
-
-export const getFileUrl = (fileName) =>
-    `https://${process.env.MIX_AWS_BUCKET}.s3.${process.env.MIX_AWS_REGION}.amazonaws.com/${fileName}`;

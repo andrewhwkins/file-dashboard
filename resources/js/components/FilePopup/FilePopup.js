@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import MuiDialogTitle from "@material-ui/core/DialogTitle";
 import MuiDialogContent from "@material-ui/core/DialogContent";
 import IconButton from "@material-ui/core/IconButton";
@@ -11,6 +11,10 @@ import DialogWrapper from "../Shared/DialogWrapper";
 import FileTags from "./FileTags";
 import FileInfo from "./FileInfo";
 
+/**
+ * Component style configuration.
+ * @function
+ */
 const styles = (theme) => ({
     root: {
         margin: 0,
@@ -38,8 +42,16 @@ const styles = (theme) => ({
     },
 });
 
-const FilePopup = (props) => {
-    const { isOpen, file, onClose, isLoading, classes } = props;
+/**
+ * Functional react component for the file info pop up.
+ * @function
+ * @param {Object} props - Component props
+ * @returns {JSX.Element} - Rendered component
+ */
+
+const FilePopup = ({ isOpen, file, onClose, isLoading }) => {
+    const useStyles = makeStyles(styles);
+    const classes = useStyles();
 
     if (!file || isLoading)
         return (
@@ -78,12 +90,16 @@ const FilePopup = (props) => {
     );
 };
 
+FilePopup.defaultProps = {
+    isOpen: false,
+    isLoading: false,
+};
+
 FilePopup.propTypes = {
-    isOpen: PropTypes.bool.isRequired,
+    isOpen: PropTypes.bool,
     file: PropTypes.objectOf(PropTypes.any),
     onClose: PropTypes.func.isRequired,
     isLoading: PropTypes.bool,
-    classes: PropTypes.objectOf(PropTypes.string),
 };
 
-export default withStyles(styles, { withTheme: true })(FilePopup);
+export default FilePopup;

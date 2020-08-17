@@ -1,29 +1,25 @@
 import React from "react";
 import { shallow } from "enzyme";
 import { findByTestAttr, checkProps } from "../../test/testUtils";
-import FileArchive from "./FileArchive";
+import FileInfo from "./FileInfo";
 
-const defaultProps = {
-    files: [],
-    onDelete: jest.fn(),
-    onView: jest.fn(),
-};
+const defaultProps = { file: {} };
 /**
- * Factory function to create a shallowWrapper for the FileArchive component.
+ * Factory function to create a shallowWrapper for the FileInfo component.
  * @function setup
  * @param {object} testValues - Context values specific to this setup.
  * @returns {ShallowWrapper}
  */
 const setup = (props) => {
-    return shallow(<FileArchive {...defaultProps} {...props} />);
+    return shallow(<FileInfo {...defaultProps} {...props} />);
 };
 
 test("Renders without error", () => {
     const wrapper = setup({});
-    const component = findByTestAttr(wrapper, "component-file-archive");
+    const component = findByTestAttr(wrapper, "component-file-info");
     expect(component.length).toBe(1);
 });
 
 test("Does not throw warning for expected props", () => {
-    checkProps(FileArchive, defaultProps);
+    checkProps(FileInfo, defaultProps);
 });

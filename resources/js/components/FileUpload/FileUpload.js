@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import moment from "moment-mini";
-import { withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { useConfirm } from "material-ui-confirm";
 import Box from "@material-ui/core/Box";
 import { DropzoneAreaBase } from "material-ui-dropzone";
@@ -11,13 +11,23 @@ import { slugify, camelize } from "../../helpers";
 import Errors from "./FileUploadErrors";
 import FileUploadItem from "./FileUploadItem";
 
+/**
+ * Component style configuration.
+ * @function
+ */
 const styles = (theme) => ({
     button: {
         margin: theme.spacing(2, 0, 2),
     },
 });
 
-const FileUpload = ({ onCreate, classes }) => {
+/**
+ * Functional react component for file upload.
+ * @function
+ * @param {Object} props - Component props
+ * @returns {JSX.Element} - Rendered component
+ */
+const FileUpload = ({ onCreate }) => {
     const confirm = useConfirm();
 
     const [files, setFiles] = React.useState([]);
@@ -25,6 +35,13 @@ const FileUpload = ({ onCreate, classes }) => {
     const [fileMeta, setFileMeta] = React.useState({});
     const [errors, setErrors] = React.useState([]);
 
+    /**
+     * Update a piece of file meta data.
+     * @function
+     * @param {File} file - Selected file
+     * @param {Object} newMeta - The meta to apply to the current meta set
+     * @returns {string} fileName - Camel case name of the file
+     */
     const updateFileMeta = (file, newMeta) => {
         const fileName = camelize(file.name);
         setFileMeta((prevMeta) => ({
@@ -35,6 +52,25 @@ const FileUpload = ({ onCreate, classes }) => {
         return fileName;
     };
 
+    /**
+     * Update the file's status and dynamically call the related (abort / start).
+     * @function
+     * @param { File } file
+     * @param { String } status
+     */
+    const handleStatus = (file, status) => {
+        const fileName = updateFileMeta(file, { status });
+
+        if (status === "start") setErrors([]);
+
+        fileMeta[fileName].upload[status]();
+    };
+
+    /**
+     * Remove all file related meta data and terminate the file upload.
+     * @function
+     * @param {File} file - Selected file
+     */
     const clearFileMeta = (file) => {
         const fileName = camelize(file.name);
 
@@ -54,6 +90,11 @@ const FileUpload = ({ onCreate, classes }) => {
         );
     };
 
+    /**
+     * Remove all file related meta data and terminate the file upload.
+     * @function
+     * @param {File} file - Selected file
+     */
     const queueFileDelete = (file) => {
         setFileQueue((prevFileQueue) =>
             prevFileQueue.filter((prevFile) => prevFile !== file.name)
@@ -64,6 +105,13 @@ const FileUpload = ({ onCreate, classes }) => {
         return () => files.forEach((file) => clearFileMeta(file));
     }, []);
 
+    /**
+     * TUS Upload the file to the server.
+     * @function
+     * @param {File} file - Selected file
+     * @param {number} index - Index of the file in the queue
+     * @returns tus.Upload
+     */
     const uploadFile = (file, index) => {
         const ext = file.name.split(".").pop();
         const filename = file.name.replace(`.${ext}`, "").substring(0, 80);
@@ -72,8 +120,6 @@ const FileUpload = ({ onCreate, classes }) => {
         )}.${ext}`;
         const upload = new tus.Upload(file, {
             endpoint: "/tus",
-            overridePatchMethod: true,
-            resume: false,
             chunkSize: 10000000, // 10 MB
             retryDelays: [0, 1000, 3000, 5000, 10000, 20000],
             metadata: {
@@ -82,8 +128,16 @@ const FileUpload = ({ onCreate, classes }) => {
                 original: `${filename}.${ext}`,
             },
             onError: (error) => {
-                console.log(error);
-                setErrors((prevErrors) => [...prevErrors, error]);
+                let uploadError = error.message;
+
+                if (!navigator.onLine) {
+                    updateFileMeta(file, { status: "abort" });
+
+                    uploadError =
+                        "Internet connection lost. Uploads have been paused.";
+                }
+
+                setErrors([uploadError]);
             },
             onProgress: (bytesUploaded, bytesTotal) => {
                 updateFileMeta(file, {
@@ -102,7 +156,11 @@ const FileUpload = ({ onCreate, classes }) => {
         return upload;
     };
 
-    const processUploads = () => {
+    /**
+     * Asynchonously upload the files in the queue.
+     * @function
+     */
+    const handleUpload = () => {
         setFileMeta((prevFileMeta) => ({
             ...prevFileMeta,
             ...files.reduce((acc, file, i) => {
@@ -120,24 +178,27 @@ const FileUpload = ({ onCreate, classes }) => {
             }, {}),
         }));
     };
-    const handleUpload = async () => {
-        processUploads();
-    };
 
+    /**
+     * Add dropped / selected files into the queue.
+     * @function
+     * @param { array } droppedFiles
+     */
     const handleDrop = (droppedFiles) => {
         setFiles((prevFiles) => [...prevFiles, ...droppedFiles]);
         setFileQueue((prevFileQueue) => [
             ...prevFileQueue,
             ...droppedFiles.map((file) => file.name),
         ]);
+        setErrors([]);
     };
 
-    const handleStatus = (file, status) => {
-        const fileName = updateFileMeta(file, { status });
-
-        fileMeta[fileName].upload[status]();
-    };
-
+    /**
+     * Remove the file from the list, queue, meta and terminate the upload.
+     * @function
+     * @param { number } index
+     * @param { File } file
+     */
     const handleFileDelete = (index, file) => {
         confirm({
             description:
@@ -171,8 +232,11 @@ const FileUpload = ({ onCreate, classes }) => {
         );
     });
 
+    const useStyles = makeStyles(styles);
+    const classes = useStyles();
+
     return (
-        <Box>
+        <Box data-test="component-file-upload">
             <DropzoneAreaBase
                 showFileNamesInPreview
                 maxFileSize={107374182400}
@@ -200,7 +264,6 @@ const FileUpload = ({ onCreate, classes }) => {
 
 FileUpload.propTypes = {
     onCreate: PropTypes.func.isRequired,
-    classes: PropTypes.objectOf(PropTypes.string),
 };
 
-export default withStyles(styles, { theme: true })(FileUpload);
+export default FileUpload;

@@ -49,6 +49,6 @@ class FileController extends Controller
             'file' => request('file'),
         ]);
 
-        return response(['message' => 'File deleted successfully.', 'data' => $data], 200);
+        return response(['message' => 'File retrieved successfully.', 'data' => $data], 200);
     }
 }

@@ -1,23 +1,32 @@
 import React from "react";
 import { useConfirm } from "material-ui-confirm";
-import hookActions from "../actions/hookActions";
 import snackbarContext from "../contexts/snackbarContext";
 import { FileUpload } from "./FileUpload";
 import { FilePopup } from "./FilePopup";
 import { FileArchive } from "./FileArchive";
+import { getFiles, deleteFile, getFile } from "../actions/hookActions";
 
+/**
+ * Functional react component for the file management panel.
+ * @function
+ * @returns {JSX.Element} - Rendered component
+ */
 const FilePanel = () => {
     const confirm = useConfirm();
 
     const [files, setFiles] = React.useState([]);
     const [currentFile, setCurrentFile] = React.useState(null);
-    const [snackbar, setSnackbar] = snackbarContext.useSnackbar();
+    const [, setSnackbar] = snackbarContext.useSnackbar();
     const [popup, setPopup] = React.useState(false);
     const [archiveLoading, setArchiveLoading] = React.useState(true);
     const [fileLoading, setFileLoading] = React.useState(false);
 
+    /**
+     * Load the initial files in the archive.
+     * @function
+     */
     const loadData = async () => {
-        const { data } = await hookActions.getFiles();
+        const { data } = await getFiles();
 
         setFiles(data);
 
@@ -28,22 +37,39 @@ const FilePanel = () => {
         loadData();
     }, []);
 
-    const deleteFile = async (index, slug) => {
-        const { message } = await hookActions.deleteFile(slug);
+    /**
+     * Remove a file from the file list and show the a success message.
+     * @function
+     * @param {number} index - Index of the file
+     * @param {string} slug - Slug name of the file
+     */
+    const deleteFileItem = async (index, slug) => {
+        const { message } = await deleteFile(slug);
 
         setFiles((prevFiles) => prevFiles.filter((file, i) => i !== index));
 
         setSnackbar({ isVisible: true, message });
     };
 
+    /**
+     * Show a confirm dialog prompting to delete the file or not.
+     * @function
+     * @param {number} index - Index of the file
+     * @param {string} slug - Slug name of the file
+     */
     const handleFileDelete = (index, slug) => {
         confirm({
             description: "Are you sure you want to delete this file?",
         }).then(() => {
-            deleteFile(index, slug);
+            deleteFileItem(index, slug);
         });
     };
 
+    /**
+     * Add a file to the list and show a success message.
+     * @function
+     * @param {File} file - The uploaded file
+     */
     const handleFileCreate = (file) => {
         setFiles((prevFiles) => [file, ...prevFiles]);
 
@@ -53,11 +79,16 @@ const FilePanel = () => {
         });
     };
 
+    /**
+     * Launch a pop up passing the currently selected file.
+     * @function
+     * @param {string} slug - Slug name of the file
+     */
     const handleFileView = async (slug) => {
         setPopup(true);
         setFileLoading(true);
 
-        const { data } = await hookActions.getFile(slug);
+        const { data } = await getFile(slug);
 
         setCurrentFile(data);
         setFileLoading(false);

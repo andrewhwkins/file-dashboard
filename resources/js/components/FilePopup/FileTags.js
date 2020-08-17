@@ -9,6 +9,12 @@ import List from "@material-ui/core/List";
 import Box from "@material-ui/core/Box";
 import Alert from "@material-ui/lab/Alert";
 
+/**
+ * Functional react component for the file AWS S3 tags.
+ * @function
+ * @param {Object} props - Component props
+ * @returns {JSX.Element} - Rendered component
+ */
 const FileTags = ({ tags, file }) => {
     const fileTags = tags.map(({ Key, Value }, i) => (
         <ListItem divider={i !== file.TagSet.length - 1} key={Key}>
@@ -24,7 +30,7 @@ const FileTags = ({ tags, file }) => {
             <Typography variant="h6" component="h3">
                 Tags
             </Typography>
-            {tags.length > 0 ? (
+            {tags && tags.length > 0 ? (
                 <List>{fileTags}</List>
             ) : (
                 <Box py={2}>
@@ -37,7 +43,7 @@ const FileTags = ({ tags, file }) => {
 
 FileTags.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.object),
-    file: PropTypes.objectOf(PropTypes.any),
+    file: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default FileTags;
