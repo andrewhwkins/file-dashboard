@@ -34,11 +34,23 @@ Create a S3 bucket
 
 Enter the region and bucket name in the .env
 
+### Install the Application Key
+
+Generate Laravel's application key
+
+```
+php artisan key:generate
+```
+
 ### Run the Project
+
+Run the dev server
 
 ```
 php artisan serve
 ```
+
+Compile the client
 
 ```
 yarn dev
