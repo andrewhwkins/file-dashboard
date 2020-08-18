@@ -30,7 +30,7 @@ Copy .env.example to .env
 
 Fill in your AWS credentials : https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html
 
-Create a S3 bucket
+Create a S3 bucket : https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html
 
 Enter the region and bucket name in the .env
 
